@@ -1,0 +1,19 @@
+<div>
+    <!-- An unexamined life is not worth living. - Socrates -->
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD</title>
+</head>
+<body>
+
+    @include('fragments.navbar')
+    @yield('section_Main')
+
+    
+</body>
+</html>
