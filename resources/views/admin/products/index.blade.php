@@ -1,6 +1,5 @@
-<h1>Catalogo de Dulces Mexicanos</h1>
-<br>
-<button><a href="{{route('products.create')}}">Registrar Dulce</a></button>
-<button><a href="">Registrar Marca</a></button>
+@extends('layout.main_template')
 
-<h2>Lista de dulces registrados</h2>
+@section('section_Main')
+<h1 class="display-3">Formulario de registro de dulces</h1>
+@endsection

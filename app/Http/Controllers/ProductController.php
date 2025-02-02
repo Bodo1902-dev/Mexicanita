@@ -21,7 +21,7 @@ class ProductController extends Controller
      */
     public function create()
     {
-     echo 'Formulario de productos';
+     echo view('admin/products/create');
     }
 
     /**
