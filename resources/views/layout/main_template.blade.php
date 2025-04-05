@@ -1,6 +1,3 @@
-<div>
-    <!-- An unexamined life is not worth living. - Socrates -->
-</div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +9,7 @@
 </head>
 <body>
     @include('fragments.navbar')
+    @include('fragments.alerts')
     @yield('section_Main')
-
-    
 </body>
 </html>
